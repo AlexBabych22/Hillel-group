@@ -1,3 +1,7 @@
+.container {
+    background-color: white;
+}
+
 header {
     width: 90%;
     margin: auto auto;
@@ -55,7 +59,7 @@ body {
     
     height: 700px;
     width: auto;
-    background-image: url("./img/metro_stantsiia_tonnel_138177_1920x1200.jpg");
+    background-image: url("../img/metro_stantsiia_tonnel_138177_1920x1200.jpg");
     padding: 50px;
     
 }
