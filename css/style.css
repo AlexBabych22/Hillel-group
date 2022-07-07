@@ -1,3 +1,11 @@
+.Content {
+  background-color: white;
+  width: 1440px;
+  margin: 0 auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+
 * {
   padding: 0;
   margin: 0;
@@ -157,7 +165,7 @@ header {
 /* ================================================================================= */
 .second_block {
   height: 730px;
-  padding: 15px 15px 15px 15px;
+  padding: 15px 0 15px 0;
   color: white;
 }
 .background {
@@ -535,7 +543,7 @@ li {
 }
 /* ==================================================================================================== */
 .seventh_block {
-  padding: 15px;
+  padding: 15px 0;
 }
 .seventh_block_2 {
   background-color: black;
