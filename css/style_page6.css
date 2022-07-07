@@ -1,0 +1,248 @@
+body{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Content {
+    background-color: white;
+    width: 1440px;
+    margin: 0 auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+header{
+    width: 90%;
+    margin: auto auto;
+    padding-top: 40px;
+}  
+.zero {
+    width: 10%;
+    display: inline-block;
+}  
+.first-title {
+    width: 75%;
+    text-align: center;
+    display: inline-block;
+}  
+.zero-p{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+.social-icons {
+    text-align: right;
+    display: inline;
+}  
+.social-icons li {
+    display: inline-block;
+    list-style-type: none;
+    /* -webkit-user-select: none;
+    -moz-user-select: none; */
+}  
+.social-icons li a {
+    border-bottom: none;
+}  
+.social-icons li img {
+    width:30px;
+    height:30px;
+    margin-left: 10px;
+}
+section{
+    padding: 30px;
+    background: black;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+}
+/* First block */
+.block_1 h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 15px 0px;
+}
+.block_1 > div{
+    display: flex;
+    justify-content: space-between;
+}
+.container_1_1{
+    width: 50%;
+}
+.circle_01{
+    background: rgb(203, 173, 242);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 120px;
+}
+.container_circle{
+    background: rgb(203, 173, 242);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.container_circle p{
+    margin: 0px;
+}
+.container_circle_88{
+    font-size: 70px;
+    font-weight: bold;
+}
+/* Second block */
+.block_2 h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: -25px 0px;
+}
+.block_2 p{
+    margin-top: 32px;
+}
+/* Third block */
+.block_3{
+    display: flex;
+    align-items: flex-end;
+}
+.block_3 > div{
+    width: 50%;
+}
+.circle_logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgb(203, 173, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 32px;
+}
+.container_2_2{
+    width: 75%;
+}
+.container_2_2 h2{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container_2_2 p{
+    font-size: 13px;
+}
+/* Fourth block */
+.block_4{
+    background-image: url(./img/city.jpg);
+    border-top: solid grey 0.5px;
+}
+#margin{
+    margin-top: 28px;
+}
+.block_4 h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: -20px 0px;
+}
+.container_4{
+    background: rgb(203, 173, 242);
+    display: flex;
+    border-bottom: solid grey 0.5px;
+}
+.circle_02{
+    background: white;
+    color: black;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 16px;
+}
+.container_4 > div{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+.container_4 p{
+    width: 72%;
+    margin: 16px;
+}
+/* Fifth block */
+.block_5{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid grey 0.5px;
+}
+.block_5 > div{
+    width: 47%;
+}
+.container_5{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.circle_05{
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.container_logo{
+    width: 64%;
+}
+.container_logo h3{
+    font-size: 25px;
+    margin: 16px;
+}
+.block_6{
+    border-top: solid grey 0.5px;
+}
+.block_6 h1{
+    font-size: 50px;
+    letter-spacing: 2px; 
+    margin: 8px 0px;
+}
+/* Sixth block */
+.block_6 p{
+    width: 80%;
+}
+.circle_06{
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.container_6{
+    display: flex;
+    width: 80%;
+}
+.container_6 div{
+    padding: 0px 10px;
+    width: 50%;
+}
+.container_06{
+    background: rgb(203, 173, 242);
+}
+ol {
+	list-style-type: decimal-leading-zero;
+    font-size: 20px;
+}
+li{
+    padding-left: 4px;
+}
