@@ -126,6 +126,7 @@ header {
  .zero {
    width: 10%;
    display: inline-block;
+   font-size: 32px;
  }
  
  .first-title {
@@ -140,6 +141,7 @@ header {
    padding-right: 20px;
    text-decoration: none;
    color: #000000;
+   font-size: 16px;
  }
  .social-icons {
      text-align: right;
