@@ -142,7 +142,7 @@ section{
 }
 /* Fourth block */
 .block_4{
-    background-image: url(./img/city.jpg);
+    background-image: url("../img/city1.jpg");
     border-top: solid grey 0.5px;
 }
 #margin{
