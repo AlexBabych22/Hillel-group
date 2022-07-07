@@ -1,0 +1,317 @@
+header {
+    width: 90%;
+    margin: auto auto;
+    padding-top: 40px;
+  }
+  
+  .zero {
+    width: 10%;
+    display: inline-block;
+  }
+  
+  .first-title {
+    width: 75%;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .zero-p{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: #000000;
+  }
+  .social-icons {
+      text-align: right;
+      display: inline;
+      }  
+  
+    .social-icons li {
+      display:inline-block;
+      list-style-type:none;
+      /* -webkit-user-select:none;
+      -moz-user-select:none; */
+      }
+  
+    .social-icons li a {
+      border-bottom: none;
+      }
+  
+    .social-icons li img {
+      width:30px;
+      height:30px;
+      margin-left: 10px;
+      }
+
+
+body {
+    background-color: rgb(228, 234, 240);
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.BackgroundPic {
+    
+    height: 700px;
+    width: auto;
+    background-image: url("./img/metro_stantsiia_tonnel_138177_1920x1200.jpg");
+    padding: 50px;
+    
+}
+.BackgroundPic h1 {
+    color: white;
+    padding-top: 150px;
+    padding-left: 50px;
+    font-size: 64px;
+    font-family: sans-serif;
+}
+
+.b1 {
+    background-color: black;
+    color: white;
+    float: right;
+    height: 300px;
+    width: 400px;
+    font-size: 20px;
+    line-height: 30px;
+    
+    
+}
+
+.b2{
+    background-color: aquamarine;
+    color: white;
+    float: right;
+    height: 300px;
+    width: 400px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.b1 p {
+    margin-left: 30px;
+    font-weight: 700;
+}
+.b1 ul{
+    width: 345px;
+    list-style: none;
+    padding: 25px;
+}
+.b1 ul  li:before {
+    content: '✓';
+    margin-right: 10px;
+}
+
+
+.b2 p {
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.b2 ul{
+    width: 345px;
+    list-style: none;
+    padding: 25px;
+}
+
+.b2 ul li::before {
+    content: '✓';
+    margin-right: 10px;
+}
+.We {
+    padding: 25px;
+}
+.We h1{
+    font-size: 64px;
+    width: 900px;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+.We p {
+    font-size: 24px;
+    width: 1150px;
+    line-height: 34px;
+}
+
+
+.Circle {
+    display: flex;
+    margin-top: 100px;
+    background-color: white;
+    padding: 30px;
+    height: 200px;
+    width: auto;
+    justify-content: space-around;
+}
+
+.Circle h3{
+    font-size: 28px;
+    text-align: center;
+}
+.Circle p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.c1,.c2,.c3 p {
+    width: 380px;
+}
+.c1 img, .c2 img {
+    padding: 35px;
+}
+
+
+.c1 picture, .c2 picture,  .c3 picture{
+    display: inline-block;
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -27%;
+    align-items: center;
+    margin-left: 115px;
+      
+}
+
+.aqua {
+    background-color: aquamarine;
+    margin-top: 50px;
+    width: auto;
+    height: 700px;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.aqualeft h1 {
+    color: white;
+    font-size: 64px;
+    font-family: sans-serif;
+    width: 400px;
+    margin-left: -35px;
+
+}
+.aqualeft p {
+    font-size: 28px;
+    line-height: 52px;
+    list-style: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.aqualeft button {
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 70px;
+    font-weight: 600;
+
+}
+
+.aqualeft button a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+} 
+
+.aquaright{
+    margin-left: 400px;
+    margin-top: 300px;
+
+}
+.aquaright img {
+    border-radius: 50%;
+    width: 250px;
+}
+
+.aquaright p {
+
+    width: 550px;
+    line-height: 32px;
+    font-size: 17px;
+    font-family:sans-serif;
+    
+}
+
+.IT {
+ background-color: white;  
+ padding: 50px; 
+}
+
+.IT h1 {
+    font-size: 64px;
+    width: 1000px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+    
+}
+
+.List {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.List li{
+    margin-top: 30px;
+    
+}
+
+
+.list1 li::marker, .list2 li::marker{
+    font-size: 60px;
+    color: aquamarine;
+}
+
+ul.list1 {
+    margin-right: 50px;
+   
+}
+
+
+.Featured {
+    background-color: black;
+    padding: 50px;
+}
+
+.Featured h1 {
+    font-size: 64px;
+    width: 1000px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+    color: white;
+}
+
+.Featured p {
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.Submit {
+    display: flex;
+}
+
+.Submit img {
+    width: 150px;
+    height: 100px;
+}
+.Submit button {
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    color: white;
+    margin-top: 40px;
+}
+
+.Submit p {
+    margin: 0;
+}
