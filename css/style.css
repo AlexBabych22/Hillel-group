@@ -5,10 +5,13 @@
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
+body {
+  margin: 8px auto;
+}
 
 * {
   padding: 0;
-  margin: 8px auto;
+  margin: 0;
   border: 0;
 }
 *,
