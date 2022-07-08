@@ -1,0 +1,437 @@
+/* header{
+    width: 80%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: auto;
+    height: 48px;
+    align-items: end;
+} */
+.Content {
+    background-color: white;
+    width: 1440px;
+    margin: 0 auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+/* header style */
+header {
+    width: 90%;
+    margin: auto auto;
+    padding-top: 40px;
+  }
+  
+  .zero {
+    width: 10%;
+    display: inline-block;
+  }
+  
+  .first-title {
+    width: 75%;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .zero-p{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: #000000;
+  }
+  .social-icons {
+      text-align: right;
+      display: inline;
+      }  
+  
+    .social-icons li {
+      display:inline-block;
+      list-style-type:none;
+      -webkit-user-select:none;
+      -moz-user-select:none;
+      }
+  
+    .social-icons li a {
+      border-bottom: none;
+      }
+  
+    .social-icons li img {
+      width:30px;
+      height:30px;
+      margin-left: 10px;
+      }
+/* header style  */
+.social{
+    display: flex;
+    width: 72px;
+    height: 20px;
+    justify-content: space-between;
+    margin:auto;
+}
+.navi{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-evenly;
+}
+ul{
+    margin: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+ul.navi a{
+    text-decoration: none;
+    color: inherit;
+}
+main{
+    width: 80%;
+    margin: 50px auto auto auto;
+    max-width: 1440px;
+}
+section{
+    background-color: black;
+    padding: 48px;
+}
+.logistic{
+    background-color: black;
+    background-image: url(https://img5.goodfon.ru/wallpaper/nbig/5/81/cyberpunk-2077-night-city-cyberpunk-city-night-landscape-blu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+@media (max-width: 720px) {
+    .logistic {
+	    background-image: url(https://3dnews.ru/assets/external/illustrations/2020/06/24/1014163/01.jpg);
+   }
+}
+.logistic h1{
+    position: absolute;
+    left: 48px;
+    top: 160px
+}
+.titles{
+    font-weight: bold;
+    font-size: 48px;
+    font-family: 'Merriweather', serif;
+    text-transform: capitalize;
+    width: 70%;
+}
+.titles_p2{
+    font-weight: bold;
+    font-size: 48px;
+    font-family: 'Inconsolata', monospace;
+    text-transform: capitalize;
+    width: 70%;
+}
+.titles_black{
+    color: black;
+}
+.titles_white{
+    color: white;
+}
+.highlights{
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+    width: 60%;
+    height: 40%;
+    display: flex;
+}
+.hl_blocks{
+    width: 50%;
+    display: inline-block;
+    padding: 16px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+.our_company_bg{
+    background-color: black;
+}
+.benefits_bg{
+    background-color: mediumaquamarine;
+}
+.logistic li::before{
+    content: '\2714';
+    margin-right: 4px;
+}
+.solution{
+    background-color: lightgray;
+    padding: 48px;
+}
+.solution > p{
+    width: 70%;
+}
+.white_bg{
+    display: flex;
+    justify-content: center;
+    margin-top: 52px;
+    padding: 12px;;
+    background-color: white;
+}
+.topic{
+    width: 32%;
+    text-align: center;
+    padding: 8px;
+}
+.round{
+    width: 100px;
+    height: 100px;
+    margin: -70px auto 0px auto;
+    background-color: mediumaquamarine;
+    border-radius: 50px;
+}
+.what{
+    background-color: mediumaquamarine;
+    padding: 48px;
+}
+.what_content{
+    display: flex;
+}
+.features_list{
+    width: 50%;
+    display: inline-block;
+    padding: 24px;
+    box-sizing: border-box;
+}
+.features_list p{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+}
+.person{
+    width: 50%;
+    display: inline-block;
+    padding: 32px 0px 48px 48px;
+    box-sizing: border-box;
+}
+.what button{
+    background-color: black;
+    color: white;
+    width: 120px;
+    padding: 12px;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 24px;
+}
+.round_snoop{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    margin-top: 100px;
+}
+.solution_it{
+    background-color: lightgrey;
+}
+
+.solution_it ul{
+    padding: 10px 30px 30px 40px;
+    margin: auto;
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+}
+.solution_it li{
+    margin-top: 20px;
+    width: 45%;
+}
+.solution_it li::marker {
+    color: green;
+    font-size: 2.5em;
+}
+.featured{
+    padding: 48px;
+    background-color: black;
+    color:white;
+}
+.companies{
+    display: flex;
+}
+.company_block{
+    width: 25%;
+    box-sizing: border-box;
+    padding: 8px;
+}
+.btn{
+    display: inline-block; 
+    background-color: mediumaquamarine;
+    color: white;
+    padding: 8px;
+    text-decoration: none; 
+    text-transform: uppercase;
+    width: 64px;
+    text-align: center;
+    margin-top: 12px;
+}
+.btn_learn_more{
+    display: inline-block; 
+    background-color: black;
+    color: white;
+    padding: 8px;
+    text-decoration: none; 
+    text-transform: uppercase;
+    width: 120px;
+    text-align: center;
+    margin-top: 12px;
+}
+.company_block > a:hover{
+    background-color: red;
+}
+.flex{
+    display: flex;
+}
+.flex > img{
+    margin: auto;
+    width: 75%;
+}
+.info_block{
+    justify-content: space-between;
+}
+.info_left{
+    flex-direction: column;
+    width: 30%;
+    color: white;
+    justify-content: space-between;
+}
+
+.info_right{
+    width: 300px;
+    height: 300px;
+    background-color: purple;
+    border-radius: 100%;
+    display: flex;
+}
+.marker{
+    background-color: purple;
+    width: 72px;
+    height: 72px;
+    border-radius: 50px;
+}
+.marker > p{
+    margin: auto;
+    font-weight: bold;
+    font-size: 48px;
+    color: white;
+}
+.text88{
+    margin: auto;
+    color:white;
+    text-align: center;
+}
+.big{
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+}
+.text_color_white{
+    color:white;
+}
+.woman{
+    width: 40%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.woman picture{
+    margin-top: auto;
+}
+.woman_topic{
+    width: 60%;
+    flex-direction: column;
+}
+.topic_p2{
+    
+    text-align: left;
+    padding: 8px;
+}
+.round_p2{
+    background-color: purple;
+    border-radius: 50px;
+    margin-right: 8px;
+    width: 50px;
+    height: 50px;
+}
+.round_p2 picture{
+    width: inherit;
+    height: inherit;
+}
+.business_p2{
+    background-image: url(https://3dnews.ru/assets/external/illustrations/2020/06/24/1014163/01.jpg);
+}
+.purp_blocks{
+    padding: 24px 12px;
+    background-color: blueviolet;
+}
+.purp_block{
+    width: 50%;
+    margin-bottom: 52px;
+}
+.purp_block > p {
+    width: 70%;
+    margin-right: 24px;
+    margin: auto;
+}
+.separate_line{
+    border-bottom: 1px solid black;
+}
+.mini_marker{
+    background-color: white;
+    width: 52px;
+    height: 52px;
+    border-radius: 50px;
+}
+.mini_marker > p{
+    margin: auto;
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+}
+.artists{
+    flex-wrap: wrap;
+    padding: 48px;
+}
+.artist_block{
+    width: 50%;
+    margin-bottom: 24px;
+}
+.round_artist{
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+}
+.artist_info{
+    text-align: center;
+    margin: 0px 32px;
+}
+.no_margin{
+    margin: 0px;
+    width: 100%;
+}
+.learning > p{
+    width: 70%;
+}
+.learning_list{
+    width: 75%;
+    padding: 24px;
+}
+.black_list{
+    padding: 24px;
+}
+.purp_list{
+    background-color: palevioletred;
+    padding: 24px;
+}
+ol{
+    margin:0px;
+    padding: 0px 0px 0px 20px;
+    list-style-type: decimal-leading-zero;
+    line-height: 2em;
+    font-family: 'Merriweather', serif;
+}
